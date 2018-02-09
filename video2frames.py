@@ -1,9 +1,10 @@
 import cv2
 
-filedir = "/vol/atlas/homes/thanos/bbc/lipread_mp4/LONDON/test/"
-savedir = "/homes/mat10/Programming/OpenCV/frames/"
+filedir = ""
+savedir = ""
+video = ""
 
-vidcap = cv2.VideoCapture(filedir + 'LONDON_00025.mp4')
+vidcap = cv2.VideoCapture(filedir + video)
 success, image = vidcap.read()
 count = 0
 success = True
